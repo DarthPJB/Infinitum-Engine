@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Expanse Engine", "Expanse Engine.vcxproj", "{9CE6B39D-E197-449C-88C0-EEFDB8A0036F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FB077228-94EF-495F-B4A8-94DD2C21EABB} = {FB077228-94EF-495F-B4A8-94DD2C21EABB}
+		{FE9A8F4A-F531-4433-9122-1982E9C892DD} = {FE9A8F4A-F531-4433-9122-1982E9C892DD}
+		{203D6F4D-806A-4637-8806-A462DC1901E7} = {203D6F4D-806A-4637-8806-A462DC1901E7}
+		{2DA5735B-DA7F-486A-BC2B-DF8628624647} = {2DA5735B-DA7F-486A-BC2B-DF8628624647}
+		{D199929B-AA33-4AEE-869C-312A8EA97B27} = {D199929B-AA33-4AEE-869C-312A8EA97B27}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibExpance_Common", "..\LibExpance_Common\LibExpance_Common.vcxproj", "{2E6823CC-BB41-4CCB-AFCE-F4798E5F132D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Plugin_Loader", "..\Plugin_Loader\Plugin_Loader.vcxproj", "{921D50EC-602C-4E16-BA14-D369A1CD3AC8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Error_System", "..\Core_Plugin\Error_System\Error_System.vcxproj", "{FE9A8F4A-F531-4433-9122-1982E9C892DD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Windows_gl_30", "..\Core_Plugin\Windows_gl_30\Windows_gl_30.vcxproj", "{2DA5735B-DA7F-486A-BC2B-DF8628624647}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Physics_Testing", "..\Core_Plugin\Physics_Testing\Physics_Testing.vcxproj", "{D199929B-AA33-4AEE-869C-312A8EA97B27}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Scene_Man_Testing", "..\Core_Plugin\Scene_Man_Testing\Scene_Man_Testing.vcxproj", "{FB077228-94EF-495F-B4A8-94DD2C21EABB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2DA5735B-DA7F-486A-BC2B-DF8628624647} = {2DA5735B-DA7F-486A-BC2B-DF8628624647}
+		{D199929B-AA33-4AEE-869C-312A8EA97B27} = {D199929B-AA33-4AEE-869C-312A8EA97B27}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Core_File_Types", "..\Core_Plugin\Core_File_Format\OBJ_model.vcxproj", "{203D6F4D-806A-4637-8806-A462DC1901E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CE6B39D-E197-449C-88C0-EEFDB8A0036F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9CE6B39D-E197-449C-88C0-EEFDB8A0036F}.Debug|Win32.Build.0 = Debug|Win32
+		{9CE6B39D-E197-449C-88C0-EEFDB8A0036F}.Release|Win32.ActiveCfg = Release|Win32
+		{9CE6B39D-E197-449C-88C0-EEFDB8A0036F}.Release|Win32.Build.0 = Release|Win32
+		{2E6823CC-BB41-4CCB-AFCE-F4798E5F132D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2E6823CC-BB41-4CCB-AFCE-F4798E5F132D}.Debug|Win32.Build.0 = Debug|Win32
+		{2E6823CC-BB41-4CCB-AFCE-F4798E5F132D}.Release|Win32.ActiveCfg = Release|Win32
+		{2E6823CC-BB41-4CCB-AFCE-F4798E5F132D}.Release|Win32.Build.0 = Release|Win32
+		{921D50EC-602C-4E16-BA14-D369A1CD3AC8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{921D50EC-602C-4E16-BA14-D369A1CD3AC8}.Debug|Win32.Build.0 = Debug|Win32
+		{921D50EC-602C-4E16-BA14-D369A1CD3AC8}.Release|Win32.ActiveCfg = Release|Win32
+		{921D50EC-602C-4E16-BA14-D369A1CD3AC8}.Release|Win32.Build.0 = Release|Win32
+		{FE9A8F4A-F531-4433-9122-1982E9C892DD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FE9A8F4A-F531-4433-9122-1982E9C892DD}.Debug|Win32.Build.0 = Debug|Win32
+		{FE9A8F4A-F531-4433-9122-1982E9C892DD}.Release|Win32.ActiveCfg = Release|Win32
+		{FE9A8F4A-F531-4433-9122-1982E9C892DD}.Release|Win32.Build.0 = Release|Win32
+		{2DA5735B-DA7F-486A-BC2B-DF8628624647}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2DA5735B-DA7F-486A-BC2B-DF8628624647}.Debug|Win32.Build.0 = Debug|Win32
+		{2DA5735B-DA7F-486A-BC2B-DF8628624647}.Release|Win32.ActiveCfg = Release|Win32
+		{2DA5735B-DA7F-486A-BC2B-DF8628624647}.Release|Win32.Build.0 = Release|Win32
+		{D199929B-AA33-4AEE-869C-312A8EA97B27}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D199929B-AA33-4AEE-869C-312A8EA97B27}.Debug|Win32.Build.0 = Debug|Win32
+		{D199929B-AA33-4AEE-869C-312A8EA97B27}.Release|Win32.ActiveCfg = Release|Win32
+		{D199929B-AA33-4AEE-869C-312A8EA97B27}.Release|Win32.Build.0 = Release|Win32
+		{FB077228-94EF-495F-B4A8-94DD2C21EABB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FB077228-94EF-495F-B4A8-94DD2C21EABB}.Debug|Win32.Build.0 = Debug|Win32
+		{FB077228-94EF-495F-B4A8-94DD2C21EABB}.Release|Win32.ActiveCfg = Release|Win32
+		{FB077228-94EF-495F-B4A8-94DD2C21EABB}.Release|Win32.Build.0 = Release|Win32
+		{203D6F4D-806A-4637-8806-A462DC1901E7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{203D6F4D-806A-4637-8806-A462DC1901E7}.Debug|Win32.Build.0 = Debug|Win32
+		{203D6F4D-806A-4637-8806-A462DC1901E7}.Release|Win32.ActiveCfg = Release|Win32
+		{203D6F4D-806A-4637-8806-A462DC1901E7}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

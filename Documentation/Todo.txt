@@ -1,0 +1,35 @@
+@todo Linux
+
+
+@todo Windows
+
+Find out why in gods name the OGL contex thing isn't used and still works somehow.
+@todo Main
+
+Add full Shader Support
+Mesh-offsets
+Input System
+Scene manager
+Loading / spash screen.
+Questions: 
+Consider creation of a 'plugin manager' plugin that loads plugins from folder
+VS
+Adding plugin folder-loading to existing loader-code
+
+Done:
+
+Add texture support
+Consider how to sucessfully handle shaders per-renderer. eg: transform shader combination, etc.
+Create demonstration simplistic shader.
+Change plugin loader to not not require an exact match between plugin name and module names
+Possibly make plugin's self-register? (internal Register****()) call within plugin?
+Change plugin loader to return a plugin-manager object (rather than the current stupid system)
+Simplify plugin-loader code (relevant to addition of new plugin types)
+Mesh Optimisation function
+Render system Optimisation function
+Non-render meshes
+fix model-use to deal with array pointers
+Interleaved Meshes
+Consider back-porting Space-engine model format (Don't re-invent the wheel dammit)
+Implement OBJ file-type plugin
+Add model-render code to render system

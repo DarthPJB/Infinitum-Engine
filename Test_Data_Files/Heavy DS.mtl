@@ -1,0 +1,58 @@
+# Blender MTL File: 'Heavy DS.blend'
+# Material Count: 5
+newmtl Bridge
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.004703 0.004703 0.004703
+Ks 0.770000 0.770000 0.770000
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl Glow
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+
+
+newmtl Hull_Finished_Heavy_DSn.png
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Kidd\Desktop\looha\textures\Heavy DSn.png
+map_Bump C:\\Users\\Kidd\\Desktop\\looha\\textures\\Heavy DSn.png
+
+
+newmtl Material
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Kidd\\Desktop\\looha\\textures\\Camo3b.dds
+map_Bump C:\\Users\\Kidd\\Desktop\\looha\\textures\\639-v8.jpg
+
+
+newmtl Material_Heavy_DSn.png
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Kidd\Desktop\looha\textures\Heavy DSn.png
+map_Bump C:\\Users\\Kidd\\Desktop\\looha\\textures\\639-v8.jpg
+
+

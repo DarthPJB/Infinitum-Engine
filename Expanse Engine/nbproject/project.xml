@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.cnd.makeproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/make-project/1">
+            <name>Expanse Engine</name>
+            <c-extensions/>
+            <cpp-extensions>cpp</cpp-extensions>
+            <header-extensions>h</header-extensions>
+            <sourceEncoding>UTF-8</sourceEncoding>
+            <make-dep-projects>
+                <make-dep-project>../Test_Plugin/Error_System</make-dep-project>
+                <make-dep-project>../Test_Plugin/linux_gl_30</make-dep-project>
+                <make-dep-project>../LibExpance_Common</make-dep-project>
+                <make-dep-project>../Plugin_Loader</make-dep-project>
+                <make-dep-project>../Test_Plugin/OBJ_model</make-dep-project>
+            </make-dep-projects>
+            <sourceRootList/>
+            <confList>
+                <confElem>
+                    <name>Debug</name>
+                    <type>1</type>
+                </confElem>
+                <confElem>
+                    <name>Release</name>
+                    <type>1</type>
+                </confElem>
+            </confList>
+        </data>
+    </configuration>
+</project>
